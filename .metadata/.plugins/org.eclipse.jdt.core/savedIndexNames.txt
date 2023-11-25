@@ -1,3 +1,0 @@
-INDEX VERSION 1.131+D:\Git\JavaSip\.metadata\.plugins\org.eclipse.jdt.core
-1818320769.index
-1602128660.index
