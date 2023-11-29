@@ -29,13 +29,22 @@ public class LinkedList {
 		while(last.getNext()!=null) {
 			last=last.getNext();
 		}
-		
 		last.setNext(newNode);
-		
-		
-		
+				
 		return true;
 	}
+	
+	public void display() {
+		Node temp=head;
+		
+		while(temp!=null) {
+			System.out.print(temp.getData()+" ");
+			temp=temp.getNext();
+		}
+		System.out.println();
+	}
+	
+	
 	
 	
 	
