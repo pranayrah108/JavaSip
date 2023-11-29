@@ -6,8 +6,20 @@ public class Main {
 		
 //		pattern1(6);
 //		pattern2(5);
-		pattern3(5);
+//		pattern3(5);
+		pattern4(5);
 
+	}
+	
+	
+	static void pattern4(int n) {
+		for(int row=1; row<=n ;row++) {
+			for(int col=1; col<=n ;col++) {
+				System.out.print(col+" ");
+				
+			}
+			System.out.println();
+		}
 	}
 	
 	
