@@ -8,9 +8,24 @@ public class Main {
 //		pattern2(5);
 //		pattern3(5);
 //		pattern4(5);
-		pattern5(6);
+//		pattern5(6);
+		pattern6(6);   //NA
 		
 		
+	}
+	
+	static void pattern6(int n) {     //NA//
+		for(int i= 1 ;i<= 6;i++) {
+			for(int j= 1;j<=i ;j++) {
+				System.out.print(" ");
+				
+				for(int k=1;k<6;k++)
+					System.out.print(k);  //NA
+				System.out.println();
+				
+			}
+		
+		}
 	}
 	
 	static void pattern5(int n) {
