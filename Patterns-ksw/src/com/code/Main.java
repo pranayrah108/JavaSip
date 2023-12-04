@@ -9,10 +9,46 @@ public class Main {
 //		pattern3(5);
 //		pattern4(5);
 //		pattern5(6);
-		pattern6(6);   //NA
+//		pattern6(6);   //NA
+		swastika(6,6);
 		
 		
 	}
+	
+	public static void swastika(int row,int col) {
+		for(int i=0;i<row;i++) {
+			for(int j=0;j<col;j++) {
+				if(i<row/2)
+				{
+					if(j<col/2) 
+					{
+						if(j==0)
+							System.out.print("*");
+						else
+							System.out.println(" "+" ");
+					}
+					else if(j==col/2)
+					System.out.print("*");
+					else
+					{
+						if(i==0)
+							System.out.println(" *");
+					}
+				}
+				else if(i==row/2)
+					System.out.print(" *" );
+				else
+				{
+					if(i==0)
+						System.out.print(" *");
+				}
+				
+			}
+		
+		}
+		
+	}
+	
 	
 	static void pattern6(int n) {     //NA//
 		for(int i= 1 ;i<= 6;i++) {
