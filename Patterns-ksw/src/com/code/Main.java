@@ -10,7 +10,7 @@ public class Main {
 //		pattern4(5);
 //		pattern5(6);
 //		pattern6(6);   //NA
-		swastika(6,6);
+		swastika(6,6);// incomplete 
 		
 		
 	}
