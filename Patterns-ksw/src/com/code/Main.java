@@ -15,35 +15,26 @@ public class Main {
 		
 	}
 	
-	public static void swastika(int row,int col) {
+	public static void swastika(int row,int col) {                          // incomplete
 		for(int i=0;i<row;i++) {
-			for(int j=0;j<col;j++) {
-				if(i<row/2)
-				{
-					if(j<col/2) 
-					{
+			for(int j=0; j<col;j++) {
+				if(i<row/2) {
+					if(j<col/2) {
 						if(j==0)
 							System.out.print("*");
+							
 						else
 							System.out.println(" "+" ");
 					}
 					else if(j==col/2)
-					System.out.print("*");
-					else
-					{
+						System.out.print(" "+"*");
+					else {
 						if(i==0)
-							System.out.println(" *");
+							System.out.print(" *");
 					}
 				}
-				else if(i==row/2)
-					System.out.print(" *" );
-				else
-				{
-					if(i==0)
-						System.out.print(" *");
-				}
-				
 			}
+				
 		
 		}
 		
