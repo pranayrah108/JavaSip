@@ -10,10 +10,26 @@ public class Main {
 //		pattern4(5);
 //		pattern5(6);
 //		pattern6(6);   //NA
-		swastika(6,6);// incomplete 
+//	swastika(6,6);// incomplete
+		HollowPattern( 6 , 6);
 		
 		
 	}
+	public static void HollowPattern(int row ,int col) {
+		for (int i=1; i<=row; i++)
+		  {
+		    for(int j=1; j<=col; j++)
+		    {
+		       if (i==1 || i==row || j==1 || j==col)
+		          System.out.print(" * ") ;
+		       else 
+		         System.out.print("   " );
+		    } 
+		    System.out.println();;  
+		  }   
+	}
+	
+		
 	
 	public static void swastika(int row,int col) {                          // incomplete
 		for(int i=0;i<row;i++) {
