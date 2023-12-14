@@ -16,6 +16,8 @@ public class Main {
 		
 	}
 	public static void HollowPattern(int row ,int col) {
+		System.out.println("-----Hollow Pattern---");
+		
 		for (int i=1; i<=row; i++)
 		  {
 		    for(int j=1; j<=col; j++)
@@ -25,8 +27,9 @@ public class Main {
 		       else 
 		         System.out.print("   " );
 		    } 
-		    System.out.println();;  
+		    System.out.println(); 
 		  }   
+		
 	}
 	
 		
