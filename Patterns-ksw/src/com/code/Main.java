@@ -11,10 +11,43 @@ public class Main {
 //		pattern5(6);
 //		pattern6(6);   //NA
 //	swastika(6,6);// incomplete
-		HollowPattern( 6 , 6);
+		//HollowPattern( 6 , 6);
+		//
+		Vpattern(8);
 		
 		
 	}
+	
+	public static void Vpattern(int n) {
+		int i, j;
+		for (i = n - 1; i >= 0; i--)
+		{
+			
+		for (j = n - 1; j > i; j--)
+		{
+			
+		System.out.print(" "); //Print Space
+
+		}
+
+		System.out.print("*"); //Print star
+
+		for (j = 1; j < (i * 2); j++)
+
+			System.out.print(" "); //Print space
+
+		if (i >= 1)
+
+			System.out.print("*");
+
+		System.out.println();//Enter newline
+
+		}
+
+		}
+	
+
+	
 	public static void HollowPattern(int row ,int col) {
 		System.out.println("-----Hollow Pattern---");
 		
