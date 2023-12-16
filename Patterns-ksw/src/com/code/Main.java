@@ -10,7 +10,7 @@ public class Main {
 //		pattern4(5);
 //		pattern5(6);
 //		pattern6(6);   //NA
-//	swastika(6,6);// incomplete
+//	    swastika(6,6);// incomplete
 		//HollowPattern( 6 , 6);
 		//
 		Vpattern(8);
@@ -19,6 +19,7 @@ public class Main {
 	}
 	
 	public static void Vpattern(int n) {
+		System.out.println("-----V pattern------");
 		int i, j;
 		for (i = n - 1; i >= 0; i--)
 		{
