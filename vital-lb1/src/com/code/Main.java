@@ -187,6 +187,29 @@ public class Main {
 
 	}
 	
+	public static void isArmstrong(int num) {
+
+	}
+
+	public static void gratestOfThree(int a, int b, int c) {
+		if (a > b) {
+			if (a > c) {
+				System.out.println(a + " is grater");
+			} else {
+				System.out.println(b + " is grater");
+			}
+		} else {
+			if (b > c) {
+				System.out.println(b + " is greater");
+			} else {
+				System.out.println(c + " is greter");
+			}
+
+		}
+	}
+	
+	
+	
 	
 
 }
